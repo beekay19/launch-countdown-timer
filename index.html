@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Frontend Mentor | Launch countdown timer</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="box-flip" data-days>
+        <div class="top" id="d-top">07</div>
+      <div class="bottom" id="d-bottom">07</div>
+      <h3>days</h3>
+    </div>
+
+    <div class="box-flip" data-hours>
+      <div class="top" id="h-top">07</div>
+      <div class="bottom" id="h-bottom">07</div>
+      <h3>hours</h3>
+    </div>
+    <div class="box-flip"  data-minutes>
+      <div class="top" id="m-top">07</div>
+      <div class="bottom" id="m-bottom">07</div>
+      <h3>minutes</h3>
+    </div>
+    <div class="box-flip second-box" data-seconds>
+      <div class="top" id="s-top">07</div>
+      <div class="bottom" id="s-bottom">07</div>
+      <h3>seconds</h3>
+    </div>
+  </div>
+    <script src="main.js"></script>
+  </body>
+</html>
